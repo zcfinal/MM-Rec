@@ -11,3 +11,5 @@
 2. For the pretrained news encoder, you can go to https://github.com/jiasenlu/vilbert_beta to download it.
 
 3. This pipeline is based on the horovod framework. We run experiments on 8 GPUs. You need to split the original behaviors file in the news dataset into X parts (named as train_x.tsv, X∈ {0, 1, 2, ..., X}) if you use X GPUs to train.
+
+Use run.sh to start the program.
